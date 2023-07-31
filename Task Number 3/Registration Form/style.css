@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px 200px;
+    background-color: #ffe6e6; /* Light red background */
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #c00; /* Dark red header text */
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #c00; /* Dark red label text */
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff6666; /* Medium red border */
+    border-radius: 5px;
+  }
+  
+  form input[type="file"] {
+    display: none;
+  }
+  
+  form label[for="image"] {
+    cursor: pointer;
+    background-color: #c00; /* Dark red button background */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  form label[for="image"]:hover {
+    background-color: #990000; /* Darker red button background on hover */
+  }
+  
+  #displayDataContainer {
+    margin-top: 20px;
+  }
+  
+  .registrationData {
+    margin-left: 197px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #ff6666; /* Medium red border for data display container */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffd9d9; /* Light red background for data display container */
+  }
+  
+  .user-image {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+ 
+  
+  button {
+    background-color: #c00; /* Dark red button background for Submit button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #990000; /* Darker red button background on hover */
+  }
