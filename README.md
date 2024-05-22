@@ -1,4 +1,4 @@
-# LGcMVIP-WEB
+# LGMVIP-WEB
 
 ## About This Repository
 - This is my repository by LGMVIP-WEB INTENSHIP.
